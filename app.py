@@ -1,6 +1,7 @@
 # EXTENSIONS
     # python create Environment Ctr + Shift + P
     # Type: python create Environment
+    # REPL-Read, Evaluate, Print, Loop
 # python by Microsoft
 # python debugger by Microsoft
 # pylance by Microsoft
