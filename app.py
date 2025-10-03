@@ -12,19 +12,23 @@
 # bool
 
 # BUILT-IN FUNCTIONS
-# For tasks
+# # For tasks
 # print()
 # input() #always otten as a string, hence convert to int or float
-# For data type format
+
+# # For data type format
 # int()
 # float()
 # bool()
 # type()
-# For string
+
+# # For string
 # len() #gets the length of a string
-# Maths/numbers
+
+# # Maths/numbers
 # round()
 # abs()
+# range(10)
 # import math (math module)
 # math.ceil(2.9)
 # math.floor(2.9)
