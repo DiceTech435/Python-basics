@@ -1,4 +1,4 @@
-# LISTS/ARRAY
+# LISTS/ARRAY []
 
 # names = ['Jonn', 'Bob', 'Mosh', 'Sarah', 'Mary']
 # names[0] = 'John'
@@ -31,7 +31,7 @@
 #         print(item)
 
 
-# LIST FUNCTIONS/METHODS
+# # LIST FUNCTIONS/METHODS
 numbers = [5, 2, 1, 5, 7, 4]
 # Numbers/String Methods
 # append() --adds to the last
@@ -45,7 +45,7 @@ numbers = [5, 2, 1, 5, 7, 4]
 # count()
 # extend()
 
-# 1st
+# # 1st
 # numbers.append(20)
 # numbers.insert(0, 10)
 # numbers.remove(1, 4)
@@ -57,19 +57,22 @@ numbers = [5, 2, 1, 5, 7, 4]
 # print(numbers)
 # print(numbers2)
 
-# Boolean Methods
+# # Boolean Methods
 # index()
-# count
-# insert
-# copy
+# count()
+# insert()
+# copy()
 
-# 2nd
+# # 2nd
 # print(numbers.index(5)) 
 # print(50 in numbers) -- this doesnt return error
 # print(numbers.count(5))
 
 
 # EXAMPLES -- remove duplicated numbers
-numbers = [2, 2, 4, 6, 3, 4, 6, 1]
-uniques = []
-for number in 
+# numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         uniques.append(number)
+#     print(uniques)
