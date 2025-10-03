@@ -58,9 +58,13 @@
     # print(item)
 
 # # 2nd
-prices = [10, 20, 30]
+# prices = [10, 20, 30]
+# total = 0
+# for price in prices:
+#     total += price
+# print(f"Toal: {total}")
 
-total = 0
-for price in prices:
-    total += price
-print(f"Toal: {total}")
+# NESTED LOOPS
+for x in range(4):
+    for y in range(3):
+    print(f'({x}, {y})')
