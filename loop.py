@@ -1,3 +1,8 @@
+# LOOPS
+# while
+# for in
+# do while
+
 # # WHILE LOOPS
 # # 1st
 # guess_count = 1
@@ -49,7 +54,7 @@
 #         print("Sorry, I don't understand the ")
 
 
-# # FOR LOOPS
+# # FOR LOOPS/FOREACH
 # # 1st
 # for item in 'python':
 # for item in ["1, 2, 3, 4, 5"]:
@@ -64,7 +69,17 @@
 #     total += price
 # print(f"Toal: {total}")
 
-# NESTED LOOPS
-for x in range(4):
-    for y in range(3):
-    print(f'({x}, {y})')
+# # NESTED LOOPS
+# 1st
+# for x in range(4):
+#     for y in range(3):
+#         print(f'({x}, {y})')
+
+# 2nd
+# numbers = [5, 2, 5, 2, 2]
+# for x_count in numbers:
+#     # print('x' * x_count)
+#     output = ''
+#     for count in range(x_count):
+#         output += 'a'
+#     print(output)

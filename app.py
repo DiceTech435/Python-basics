@@ -44,6 +44,7 @@
 
 # BOOLEAN EXP/OPERATOR
 # in
+# not
 # course = 'Python for Beginners'
 # print('python' in course)
 
