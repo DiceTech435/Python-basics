@@ -1,0 +1,3 @@
+Create Environment Ctr + Shift + P
+    Type: python create Environment
+    REPL-Read, Evaluate, Print, Loop
