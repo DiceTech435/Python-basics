@@ -58,7 +58,7 @@
 # age = 2019 - int(birth_year)
 # print(age) 
 
-# MULTI-LINE COMMENTS
+# MULTI-LINE STRING
 course = '''
 Hi John, 
 Here is our first email to you.
