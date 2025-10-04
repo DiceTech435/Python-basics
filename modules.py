@@ -8,6 +8,7 @@ from packages.shipping import calc_shipping, cal_tax
 packages.shipping.calc_shipping()
 import random 
 
+
 funcUtils.greet_user("James", "Vivian", 26)
 funcUtils.find_min([3, 6, 2, 8, 4, 10])
 print(square(21))
@@ -25,3 +26,12 @@ leader = random.choice(members)
 print(leader)
 
 # Roll Dice  
+# class Dice:
+#     def roll(self):
+#         first = random.randint(1, 6)
+#         second = random.randint(1, 6)
+#         return fisrt, second
+    
+
+# dice = Dice()
+# print(dice.roll)
