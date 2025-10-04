@@ -2,6 +2,7 @@
 # python by Microsoft
 # python debugger by Microsoft
 # pylance by Microsoft
+# Jupyter (by Microsoft)
 
 
 # DATA TYPES

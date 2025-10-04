@@ -11,6 +11,7 @@
 
 
 # DOWNLOAD AI/ML LIBARIES AND PACKAGES
+# cmd: jupyter notebook
 # Numpy
 # pandas
 # MatPlotLib
