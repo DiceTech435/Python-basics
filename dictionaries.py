@@ -1,5 +1,5 @@
 # DICTIONARIES{}/Json -- store informations that come as key-> value pair
-# NONE-- represents absence of a value
+# None --- represents absence of a value
 # Methods
 # .get() -- gets key->value that does not exist and returns None(inseatd of error), or could assign default value instead
 # Note: .get() can be used instead of []

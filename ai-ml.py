@@ -52,13 +52,12 @@
 # Evaluate and Improve
 
                         # STEP-1
-# IMPORT DATA
+# # IMPORT DATA
 # # Libraries & tools
-# Numpy -- multi-dimensional array
-# Pandas -- Data analysis with data-frame concept (row & column)
-# MatPlotLib -- creates graphs on plots
-# Scikit-learn -- Decision trees, neuro-networks
-    # import pandas as pd
+    # Numpy -- multi-dimensional array
+    # Pandas -- Data analysis with data-frame concept (row & column) <--> (import pandas as pd)
+    # MatPlotLib -- creates graphs on plots
+    # Scikit-learn -- Decision trees, neuro-networks, algorythm <--> (from sklearn.tree import DecisionTreeClassifier)
 
                         # STEP-2
 # DOWNLOAD DATA-SETS
@@ -66,5 +65,4 @@
     # search (video game sales)
     # download csv
 # bit.ly/music-csv
-    # search ()
-    # download csv
+    # download csv direct

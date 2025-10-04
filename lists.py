@@ -2,7 +2,7 @@
 
 # names = ['Jonn', 'Bob', 'Mosh', 'Sarah', 'Mary']
 # names[0] = 'John'
-# # print(names[-1])
+# print(names[-1])
 # print(names[2:4])
 # print(names[2:])
 # print(names[:3])
@@ -42,18 +42,18 @@ for number in numbers:
 # # LIST FUNCTIONS/METHODS
 numbers = [5, 2, 1, 5, 7, 4]
 # Numbers/String Methods
-# append() --adds to the last
-# insert(index, object)
-# remove(object)
-# clear() ---removes all in a list
-# pop() ---removes last item on the list
-# sort() -- sorts in ascending order
-# reverse() -- reverses in descending order
-# copy() -- just helps print the initial without redefining
-# choice()
-# count()
-# extend()
-# split
+    # .append() --adds to the last
+    # .insert(index, object)
+    # .remove(object)
+    # .clear() ---removes all in a list
+    # .pop() ---removes last item on the list
+    # .sort() -- sorts in ascending order
+    # .reverse() -- reverses in descending order
+    # .copy() -- just helps print the initial without redefining
+    # .choice()
+    # .count()
+    # .extend()
+    # .split()
 
 # # 1st
 # numbers.append(20)
@@ -68,10 +68,10 @@ numbers = [5, 2, 1, 5, 7, 4]
 # print(numbers2)
 
 # # Boolean Methods
-# index()
-# count()
-# insert()
-# copy()
+    # .index()
+    # .count()
+    # .insert()
+    # .copy()
 
 # # 2nd
 # print(numbers.index(5)) 

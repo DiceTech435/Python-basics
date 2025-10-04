@@ -9,9 +9,9 @@ from pathlib import Path
 # .mkdir() -- create directory
 # .rmdir() -- remove directory
 # .glob('') -- search for files and dir in current path
-    # * -- all files and dir
-    # *.* -- all files
-    # *.py -- all python files
+    # *     -- all files and dir
+    # *.*   -- all files
+    # *.py  -- all python files
     # *.xls -- all excel files
 
 path = Path("packages")
