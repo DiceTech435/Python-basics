@@ -50,6 +50,7 @@ numbers = [5, 2, 1, 5, 7, 4]
 # sort() -- sorts in ascending order
 # reverse() -- reverses in descending order
 # copy() -- just helps print the initial without redefining
+# choice()
 # count()
 # extend()
 # split
