@@ -6,22 +6,8 @@
 # Vision Processing
 # Forecasting Stock Market Trends
 
-# # STEPS
-# Import Data
-# Clean Data
-# Split Data into Training/Test Sets
-# Create Model 
-# Train the Model
-# Make Predictions
-# Evaluate and Improve
 
-# # LIBRARIES & TOOLS
-# Numpy -- multi-dimensional array
-# Pandas -- Data analysis with data-frame concept (row & column)
-# MatPlotLib -- creates graphs on plots
-# Scikit-learn -- Decision trees, neuro-networks
-
-# DOWNLOAD AND INSTALLATIONS
+# DOWNLOAD AND INSTALLATIONS FOR JUPITER
 # jupiter.org -- Environment
 # anaconda.com/downloads
 # Press Windows key → search for “Anaconda Prompt” → open it.
@@ -36,7 +22,7 @@
 # http://localhost:8888/tree
 
 
-# USE ON VS CODE
+# USE ON VS CODE (jupiter extension by Microsoft)
 # Ctrl+Shift+P
 # Type → Python: Select Interpreter
 # Python 3.x.x ('base': conda)
@@ -54,3 +40,31 @@
     # Click the top-right dropdown in the notebook (Select Kernel).
     # Pick your Conda environment manually (e.g. base or myenv).
     # It’ll connect Jupyter to that environment’s interpreter.
+
+
+# # STEPS FOR AI/ML
+# Import Data
+# Clean Data
+# Split Data into Training/Test Sets
+# Create Model 
+# Train the Model
+# Make Predictions
+# Evaluate and Improve
+
+                        # STEP-1
+# IMPORT DATA
+# # Libraries & tools
+# Numpy -- multi-dimensional array
+# Pandas -- Data analysis with data-frame concept (row & column)
+# MatPlotLib -- creates graphs on plots
+# Scikit-learn -- Decision trees, neuro-networks
+    # import pandas as pd
+
+                        # STEP-2
+# DOWNLOAD DATA-SETS
+# kaggle.com 
+    # search (video game sales)
+    # download csv
+# bit.ly/music-csv
+    # search ()
+    # download csv
