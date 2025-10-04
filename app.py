@@ -45,6 +45,7 @@
 # BOOLEAN EXP/OPERATOR
 # in
 # not
+# pass -- pass this line, don't worry about it instead of showing error
 # course = 'Python for Beginners'
 # print('python' in course)
 
