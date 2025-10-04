@@ -44,6 +44,7 @@ numbers = [5, 2, 1, 5, 7, 4]
 # copy() -- just helps print the initial without redefining
 # count()
 # extend()
+# split
 
 # # 1st
 # numbers.append(20)
