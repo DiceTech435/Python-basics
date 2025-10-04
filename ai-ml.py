@@ -46,3 +46,11 @@
         # Press Ctrl+Shift+P
         # Type Jupyter: Create New Blank Notebook
         # Choose Python 3 (ipykernel) when asked for a kernel.
+# Run cells inside VS Code
+    # Each cell (block of code) can be run with the Run Cell ▶️ button on the left.
+    # You’ll see the output right below the cell (just like in browser Jupyter).
+# Optional: Verify your kernel
+    # If VS Code doesn’t recognize your environment automatically:
+    # Click the top-right dropdown in the notebook (Select Kernel).
+    # Pick your Conda environment manually (e.g. base or myenv).
+    # It’ll connect Jupyter to that environment’s interpreter.
