@@ -11,11 +11,19 @@
 
 # # 2nd
 # numbers = [3, 6, 2, 8, 4, 10]
-# max = numbers[0]
+# maximum = numbers[0]
 # for number in numbers:
-#     if number > max:
-#         max = number
-#         print(max)
+#     if number > maximum:
+#         maximum = number
+#         print(maximum)
+
+# 3rd
+numbers = [3, 6, 2, 8, 4, 10]
+minimum = numbers[0]
+for number in numbers:
+    if number < minimum:
+        minimum = number
+        print(minimum)
 
 # 2-DIMENSIONAL LISTS
 # matrix = [

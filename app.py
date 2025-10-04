@@ -15,6 +15,7 @@
 # # For tasks
 # print()
 # input() #always otten as a string, hence convert to int or float
+# max
 
 # # For data type format
 # int()
@@ -46,6 +47,8 @@
 # in
 # not
 # pass -- pass this line, don't worry about it instead of showing error
+# import
+# from ... import ...
 # course = 'Python for Beginners'
 # print('python' in course)
 
