@@ -1,8 +1,11 @@
-# EXTENSIONS
+# EXTENSIONS 
 # python by Microsoft
 # python debugger by Microsoft
 # pylance by Microsoft
 # Jupyter (by Microsoft)
+# Black/Ruff/flake8 (for linting & formatting)
+# GitLens (for version control)
+# isort (Automatically sorts imports)
 
 
 # DATA TYPES

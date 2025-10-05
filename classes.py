@@ -1,7 +1,7 @@
 # CLASSES -- templates/blueprint for creating objects
 # using Pascal 
 # Magic methods
-# Objects ---actual instanses based on the class
+# Objects ---actual instanses based on the class created
 
 # 1st
 class Point:
@@ -10,7 +10,7 @@ class Point:
     # x = 2
     # y = 3
 
-    # Connstruct
+    # Connstruct/init function
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -47,13 +47,20 @@ bob = Person("Bob James")
 bob.talk()
 
 
-# Inheriatnce
+# Inheriatnce, Multiple Inheritance
 # DRY--Don't repeat Yourself
 class James(Person):
      pass 
 
-class Esther(Person):
-     pass 
+class Esther(Person, Point):
+     pass
+ 
+name = "Tanko" 
+ 
+# Overwrite
+def talk(self):
+    print(f'Hi, i am {name}!.')
+
 
 james = James("James")
 james.talk()
