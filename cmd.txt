@@ -1,5 +1,14 @@
-Create Environment Ctr + Shift + P
+Create Environment -- Ctr + Shift + P
     Type: python create Environment
     REPL-Read, Evaluate, Print, Loop
     OR
     cmd: python -m venv venv
+
+SEE INSTALLED PACKAGES
+    pip list
+    pip install requests pillow
+    python-dotenv
+SAVE DEPENDENCIES
+    pip freeze > requirements.txt
+REINSTALL EVERYTHING IN requirements.txt
+    pip install -r requirements.txt
