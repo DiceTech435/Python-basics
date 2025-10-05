@@ -41,7 +41,7 @@ for number in numbers:
 #         print(item)
 
 
-# # LIST FUNCTIONS/METHODS
+# # LISTS' FUNCTIONS/METHODS
 numbers = [5, 2, 1, 5, 7, 4]
 # Numbers/String Methods
     # .append() --adds to the last
