@@ -53,11 +53,11 @@ bob = Person("Bob James")
 bob.talk()
 
 
-# Inheriatnce, Multiple Inheritance
+# Inheriatnce
 # DRY--Don't repeat Yourself
 class James(Person):
      pass 
-
+# Multiple Inheritance
 class Esther(Person, Point):
      pass
  

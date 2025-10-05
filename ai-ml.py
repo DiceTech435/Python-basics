@@ -1,11 +1,17 @@
-# # AI/ -- used for:
+# # AI/ML -- used for:
 # self-driving cars
 # Robotics
 # Lamguage processing
 # Vision Processing
 # Vision Processing
 # Forecasting Stock Market Trends
+# Data analysis, visualization, training models, predictions
 
+
+# DONE:
+    # on Jupiter Notebooks(.ipynb files)
+    # Anaconda environment(pre-packaged with data libraries)
+    # Google Colab(free online env with built-in GPUS)
 
 # DOWNLOAD AND INSTALLATIONS FOR JUPITER
 # jupiter.org -- Environment
