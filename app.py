@@ -25,6 +25,13 @@
 # bool()
 # type()
 
+
+# For File
+# open('shop.txt', 'w')
+# .write("We are writing a file in python")
+# .read()
+# .close()
+
 # # For string
 # len() #gets the length of a string
 

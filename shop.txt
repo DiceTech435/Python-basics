@@ -1,0 +1,2 @@
+We are writing a file in python
+We have writen a file already
