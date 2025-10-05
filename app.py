@@ -6,7 +6,7 @@
 
 
 # DATA TYPES
-# str
+# str "" \ -escape sequence--ignore any quote and treat as a normal string
 # numbers
     # int -- 40, 3, 90
     # float -- 4.2, 49.1
@@ -59,6 +59,10 @@
 # color = input("What color do you like? ")
 # print("Hi " + name + " you like " + color)
 
+# TEMPLATE LITERALS
+# f"Hi {name}"
+# r"C:\Desktop\new"
+
 # birth_year = input('Birth year: ')
 # age = 2019 - int(birth_year)
 # print(age) 
@@ -92,3 +96,6 @@ print(course[0:3])
 # Opertaor precedence BODMAS
 # Logical operators and, or, not
 # Comparison operators <, >, <=, >=, ==, ===, !=, !==
+# Escape sequence \ -ignore any quote and treat as a normal string
+# New line \n -- print("My name is\n Matthew")
+# Ignore New line r"" --- print(r"C:\Desktop\new")
