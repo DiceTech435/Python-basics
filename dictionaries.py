@@ -1,9 +1,9 @@
 # SETS -- same as lists but an item cannot appear twice
-shop = {"Milk", "Garri", "Sugar", "Tea", "Cream", "Garri"}
-if "Milk" in shop:
-    print("Yes you have Milk in the shop")
-else:
-    print("You need milk")
+# shop = {"Milk", "Garri", "Sugar", "Tea", "Cream", "Garri"}
+# if "Milk" in shop:
+#     print("Yes you have Milk in the shop")
+# else:
+#     print("You need milk")
 
 # DICTIONARIES{}/Json -- store informations that come as key-> value pair
 # None --- represents absence of a value
@@ -12,7 +12,7 @@ else:
 # Note: .get() can be used instead of []
 
 customer = {
-    "name": "John Smith",
+    "name": " John Smith",
     "age": 30,
     "is_verified": True
 }
@@ -21,6 +21,9 @@ customer = {
 # print(customer["name"])
 # print(customer.get("city"))
 # print(customer.get("city", "Lafia"))
+
+# for k, v in customer.items():
+#     print(k + v)
 
 
 # # 3rd

@@ -1,7 +1,7 @@
 # TOPOLS()-- Operate/same to lists, but inmutable, unchnageable, unmodifiable
 # Methods of Topols
-# count(self, x) --- 
-# indes(self, x, start, end)
+# .count(self, x) --- 
+# .index(self, x, start, end)
 
 coordinates = (1, 2, 3)
 # # method 1

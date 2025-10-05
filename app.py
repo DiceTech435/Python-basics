@@ -45,6 +45,12 @@
 # .find('p')
 # .replace('Boy', 'Girl')
 
+
+# For Lists/Dictionaries/Topols
+# .items() -- only work for strings in dictionaries
+# .count(self, x) --- 
+# .index(self, x, start, end)
+
 # BOOLEAN KEYWORDS
 # in
 # is or ==
