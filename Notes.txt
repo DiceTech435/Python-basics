@@ -1,0 +1,36 @@
+Create Environment -- Ctr + Shift + P
+    Type: python create Environment
+    REPL-Read, Evaluate, Print, Loop
+    OR
+    cmd: python -m venv venv
+    This gives: clean and isolated environment, a few core built-in modules(os, sys, math, datetime, etc), pip and setuptools to install other packages.
+
+SEE INSTALLED PACKAGES
+    pip list
+INSTALL PACKAGES
+    pip install django
+    pip install requests pillow django djangorestframework psycopg2-binary
+    python-dotenv
+    
+SAVE DEPENDENCIES
+    pip freeze > requirements.txt
+REINSTALL EVERYTHING IN requirements.txt -- ensures consistency with same version for devs and servers.
+    pip install -r requirements.txt
+
+
+
+
+LISTS OF PACKAGES
+API Layer -- djangorestframework
+PostgreSQL -- psycopg2-binary
+Python Environment -- python-dotenv -- Loads secret keys from .env file
+Authentication -- djoser or django-allauth
+Authentication (JWT) -- djangorestframework-simplejwt
+Image -- pillow
+CORS -- django-cors-headers -- Allows React frontend to connect to Django backend
+Utilities -- requests,  urllib3, openyxl -- For API calls, HTTP requests, Excel handling
+Deployment Tools -- gunicorn, whitenoise -- Deployinf django apps to production
+Caching -- redis
+Asynchronous Tasks -- Celery
+Testing -- pytest, unittest
+Payment Integration -- paystackapi, stripe

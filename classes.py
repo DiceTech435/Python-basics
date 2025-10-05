@@ -1,7 +1,13 @@
 # CLASSES -- templates/blueprint for creating objects
-# using Pascal 
-# Magic methods
-# Objects ---actual instanses based on the class created
+    # using Pascal case in defining a class
+    # Magic methods
+    # Objects ---actual instanses based on the class created
+
+# STEPS
+    # Create a user module
+    # Define a User class inside it
+    # Add some helper functions if needed
+    # Or wrap inside your own functions or classes to make your app's logic clean and reusable.
 
 # 1st
 class Point:

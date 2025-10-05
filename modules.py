@@ -3,9 +3,9 @@ import funcUtils
 from funcUtils import emoji_converter
 from funcUtils import square
 # from lists import min
-import packages.shipping
-from packages.shipping import calc_shipping, cal_tax
-packages.shipping.calc_shipping()
+import CustomFuncs.shipping
+from CustomFuncs.shipping import calc_shipping, cal_tax
+CustomFuncs.shipping.calc_shipping()
 import random 
 
 
