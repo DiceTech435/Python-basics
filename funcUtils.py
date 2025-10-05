@@ -46,3 +46,76 @@ def find_min(numbers):
     for number in numbers:
         if number < min:
             min = number
+
+# 3rd
+# def allowed_dating_age(my_age):
+#     girl_age = my_age / 2 + 7
+#     return girl_age
+
+# age = 35
+# limit = allowed_dating_age(age)
+# print("You are", age, "years old and you can date a ", round(limit), "years old girl or older")
+
+
+# 4th
+# Default values
+# def gender(sex = "Unknown"):
+#     if sex is "m":
+#         sex = "male"
+#     elif sex is "f":
+#         sex = "female"
+#     print(sex)
+    
+# gender("m")
+# gender("f")
+# gender()
+
+
+# 5th
+# Variable scope
+# a = 1234
+# def man():
+#     print (a)
+
+# def boy():
+#     print(a)
+
+# man()
+# a = 9082
+# boy()
+
+
+# 6th
+# Keyword arguments
+# def sentence(name='Matthew', action='Plays', item='football'):
+#     print(name, action, item)
+
+# sentence("Dan", "dance", "baloron")
+# sentence(item='golf', action='plays', name='John')
+
+# 7th
+# Flexible number of aruments/loops/lists
+# Note: you must loop here
+def add_numbers(*args):
+    total = 0
+    for a in args:
+        total += a
+    print(total)
+
+add_numbers(4)
+add_numbers(4, 3, 3, 3)
+
+# 8th
+# Unpacking Arguments
+def health_cal(age, apple_rate, cig_rate):
+    age = (100 - age) + (apple_rate * 3.5) - (cig_rate * 2)
+    print(age)
+
+matt_data = [21, 30, 0]
+# 1st
+health_cal(matt_data[0], matt_data[1], matt_data[2])
+# 2nd
+health_cal(*matt_data)
+# 3rd--topols
+x, y, z = (21, 30, 0)
+health_cal(x, y, z)

@@ -19,6 +19,7 @@
 # max
 
 # # For data type format
+# str()
 # int()
 # float()
 # bool()
