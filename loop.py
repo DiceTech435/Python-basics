@@ -54,7 +54,7 @@
 #         print("Sorry, I don't understand the ")
 
 
-# # FOR LOOPS/FOREACH
+# # FOR LOOPS/foreach
 # # 1st
 # for item in 'python':
 # for item in ["1, 2, 3, 4, 5"]:

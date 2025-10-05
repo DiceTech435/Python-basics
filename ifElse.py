@@ -21,11 +21,22 @@ else:
     print(f"Down payment: ${down_payment}")
 
 
-wweight = int(input('weight: '))
-unit = input('(L)bs or (K)g: ')
-if unit.upper() == "L":
-    converted = weight * 0.45
-    print(f"You are {converted} kilos")
+# weight = int(input('weight: '))
+# unit = input('(L)bs or (K)g: ')
+# if unit.upper() == "L":
+#     converted = weight * 0.45
+#     print(f"You are {converted} kilos")
+# else:
+#     converted = weight / 0.45
+#     print(f"You are {converted} pounds")
+
+
+name = "Matthew"
+if name is "Matthew":
+    print("Welcome Matthew")
+elif name is "Abraham":
+    print("Welcome Abraham")
+elif name is "Chinedu":
+    print("Welcome Chinedu")
 else:
-    converted = weight / 0.45
-    print(f"You are {converted} pounds")
+    print("please register")

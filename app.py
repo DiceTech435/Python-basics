@@ -44,12 +44,17 @@
 # .find('p')
 # .replace('Boy', 'Girl')
 
-# BOOLEAN EXP/OPERATOR
+# BOOLEAN KEYWORDS
 # in
+# is or ==
 # not
+# break -- stop executing
 # pass -- pass this line, don't worry about it instead of showing error
+# continue
 # import
 # from ... import ...
+
+
 # course = 'Python for Beginners'
 # print('python' in course)
 
@@ -60,8 +65,9 @@
 # print("Hi " + name + " you like " + color)
 
 # TEMPLATE LITERALS
-# f"Hi {name}"
-# r"C:\Desktop\new"
+# print(f"Hi {name}")
+# print(r"C:\Desktop\new")
+# print("The number is: ", num)
 
 # birth_year = input('Birth year: ')
 # age = 2019 - int(birth_year)

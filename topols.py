@@ -10,6 +10,6 @@ coordinates = (1, 2, 3)
 # z = coordinates[2]
 
 # method 2
-# USING UNPACKING
+# BY UNPACKING ARGUMENTS
 x, y, z = coordinates
 print(y)
