@@ -1,22 +1,39 @@
-Create Environment -- Ctr + Shift + P
+CREATE ENVIRONMENT -- Ctr + Shift + P
     Type: python create Environment
     REPL-Read, Evaluate, Print, Loop
-    OR
+        OR
     cmd: python -m venv venv
-    This gives: clean and isolated environment, a few core built-in modules(os, sys, math, datetime, etc), pip and setuptools to install other packages.
+        This gives: clean and isolated environment, a few core built-in modules(os, sys, math, datetime, etc), pip and setuptools to install other packages.
+ACTIVATE ENVIRONMENT
+    .venv\Scripts\activate
+SELECT INTERPETER/ENVIRONMENT -- (Python 3.13 + .venv + Miniconda)
+    Ctrl + Shift + P
+    Type: 'Python: Select Interpreter'
+    Select: .venv (C...\.venv) --- Recommended
+
+DELETE ENVIRONMENT -- Ctr + Shift + P
+    rmdir /s /q .venv
+    OR Manually delete the .venv folder
 
 SEE INSTALLED PACKAGES
     pip list
 INSTALL PACKAGES
+General rule	python -m pip install pillow
+If 100% sure pip points to the right env (optional shortcut) -- Inside .venv
     pip install django
     pip install requests pillow django djangorestframework psycopg2-binary
+    python -m pip install flask django fastapi uvicorn jinja2 requests pillow sqlalchemy alembic pydantic python-dotenv bcrypt passlib pytest black isort
     python-dotenv
-    
-SAVE DEPENDENCIES
+    pip install pillow 
+
+SAVE DEPENDENCIES/PACKAGES
     pip freeze > requirements.txt
 REINSTALL EVERYTHING IN requirements.txt -- ensures consistency with same version for devs and servers.
     pip install -r requirements.txt
 
+RELOAD WINDOW
+    Ctr + Shift + P
+    Type: Reload Window
 
 DEPLOY & SCALING
     pip install docker docker-compose

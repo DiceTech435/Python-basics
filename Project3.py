@@ -1,5 +1,4 @@
-from PIL import Image
-from pillow import ImageFilter
+from PIL import Image, ImageFilter
 
 # WORKING WITH IMAGES
 jay = Image.open("jay.jpg")
