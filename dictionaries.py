@@ -51,4 +51,13 @@ customer = {
 #     output += emojis.get(word, word) + " "
 # print(output)
 
-# 5th
+# DICTIONARIES CALCULATIONS
+# shares = {"NNPC": 464, "Shell": 300,
+#           "BUA": 30, "Dangote": 54,
+#           "GLO": 60, "AAPL": 65
+#          }
+
+# # This interchanges key-values' position
+# min_shares = min(zip(shares.values(), shares.keys()))
+
+# print(min_shares)

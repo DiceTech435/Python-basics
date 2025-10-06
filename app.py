@@ -122,3 +122,16 @@ print(course[0:3])
 # Escape sequence \ -ignore any quote and treat as a normal string
 # New line \n -- print("My name is\n Matthew")
 # Ignore New line r"" --- print(r"C:\Desktop\new")
+
+
+# # BITWISE OPERATORS
+# &, >>,  
+a = 50 #110010
+b = 25 #011001
+       #010000
+c = a & b
+print(c)
+
+a = 240
+y = a >> 2
+print(y)
