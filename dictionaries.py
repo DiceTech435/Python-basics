@@ -52,6 +52,7 @@ customer = {
 # print(output)
 
 # DICTIONARIES CALCULATIONS
+# zip(shares.values(), shares.keys())
 # shares = {"NNPC": 464, "Shell": 300,
 #           "BUA": 30, "Dangote": 54,
 #           "GLO": 60, "AAPL": 65
