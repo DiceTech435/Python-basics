@@ -6,7 +6,7 @@ ACTIVATE ENVIRONMENT
 SELECT INTERPETER/ENVIRONMENT -- Miniconda
     Ctrl + Shift + P
     Type: 'Python: Select Interpreter'
-    Select: conda (C...\.venv) --- Recommended
+    Select: conda (C...\conda)
 
 INSTALL PACKAGES
 General rule	conda install flask pillow sqlalchemy
@@ -18,4 +18,4 @@ CHECK ENVIRONMENT
     where python
         .venv --- pip/venv environment.
         miniconda3 --- Conda environment.
-        Python313 --- global Python.
+        Python313 --- global Python/default environment installed

@@ -1,16 +1,20 @@
 CREATE ENVIRONMENT -- Ctr + Shift + P
     Type: python create Environment
-    REPL-Read, Evaluate, Print, Loop
-        OR
+          REPL-Read, Evaluate, Print, Loop
+      OR
     cmd: python -m venv venv
-        This gives: clean and isolated environment, a few core built-in modules(os, sys, math, datetime, etc), pip and setuptools to install other packages.
+        This gives: clean and isolated environment, with a few core built-in modules(os, sys, math, datetime, etc), pip and setuptools to install other packages.
 ACTIVATE ENVIRONMENT
     .venv\Scripts\activate
-SELECT INTERPETER/ENVIRONMENT -- (Python 3.13 + .venv + Miniconda)
+SELECT INTERPETER/ENVIRONMENT -- (Python 3.13/.venv/Miniconda)
     Ctrl + Shift + P
     Type: 'Python: Select Interpreter'
     Select: .venv (C...\.venv) --- Recommended
-
+CHECK ENVIRONMENT
+    where python
+        .venv --- pip/venv environment.
+        miniconda3 --- Conda environment.
+        Python313 --- global Python/default environment installed
 DELETE ENVIRONMENT -- Ctr + Shift + P
     rmdir /s /q .venv
     OR Manually delete the .venv folder
@@ -41,40 +45,40 @@ DEPLOY & SCALING
 
 
 LISTS OF PACKAGES
-API Layer -- djangorestframework
-PostgreSQL -- psycopg2-binary
-PostgreSQL Adapter -- psycopg2-binary
-Database migrations -- (Built in django)
-Data seeding -- django-seed
-Python Environment -- python-dotenv -- Loads secret keys from .env file
-Authentication -- djoser or django-allauth
-Authentication (JWT) -- djangorestframework-simplejwt
-Socail Login -- django-allauth
-Password Hashing -- bcrypt, argon2-cffi
-Image -- pillow
-CORS -- django-cors-headers -- Allows React frontend to connect to Django backend
-Utilities -- requests,  urllib3, openyxl -- For API calls, HTTP requests, Excel handling
-Deployment Tools -- gunicorn, whitenoise -- Deployinf django apps to production
-Caching -- redis
-Asynchronous Tasks -- Celery
-Testing -- pytest, unittest, pytest-django
-Payment Integration -- paystackapi, stripe
-PDF generation -- reportlab, xhtnl2pdf
-File Storage -- django-storage
-Rate limiting / spam control -- django-ratelimit --Prevent brute-force or spam attacks
-Task monitoring -- flower
-Compression -- django-Compressor
-Date and time utils -- python-dateutil, pytz
-Environment management -- virtualenv, pipenv
-Debugging -- django-debug-toolbar
-Code coverage -- coverage
-Linting -- flake8, black
-Web server -- gunicorn
-ASGI server -- uvicorn
-Docker Containerization -- docker, docker-compose
-CI/CD -- GitHub Actions, GitLab CI, CircleCI
-frontend UI -- React or Next.js
-API Testing -- Postman
-Cross-origin proxy -- CORS Middleware
+    API Layer -- djangorestframework
+    PostgreSQL -- psycopg2-binary
+    PostgreSQL Adapter -- psycopg2-binary
+    Database migrations -- (Built in django)
+    Data seeding -- django-seed
+    Python Environment -- python-dotenv -- Loads secret keys from .env file
+    Authentication -- djoser or django-allauth
+    Authentication (JWT) -- djangorestframework-simplejwt
+    Socail Login -- django-allauth
+    Password Hashing -- bcrypt, argon2-cffi
+    Image -- pillow
+    CORS -- django-cors-headers -- Allows React frontend to connect to Django backend
+    Utilities -- requests,  urllib3, openyxl -- For API calls, HTTP requests, Excel handling
+    Deployment Tools -- gunicorn, whitenoise -- Deployinf django apps to production
+    Caching -- redis
+    Asynchronous Tasks -- Celery
+    Testing -- pytest, unittest, pytest-django
+    Payment Integration -- paystackapi, stripe
+    PDF generation -- reportlab, xhtnl2pdf
+    File Storage -- django-storage
+    Rate limiting / spam control -- django-ratelimit --Prevent brute-force or spam attacks
+    Task monitoring -- flower
+    Compression -- django-Compressor
+    Date and time utils -- python-dateutil, pytz
+    Environment management -- virtualenv, pipenv
+    Debugging -- django-debug-toolbar
+    Code coverage -- coverage
+    Linting -- flake8, black
+    Web server -- gunicorn
+    ASGI server -- uvicorn
+    Docker Containerization -- docker, docker-compose
+    CI/CD -- GitHub Actions, GitLab CI, CircleCI
+    frontend UI -- React or Next.js
+    API Testing -- Postman
+    Cross-origin proxy -- CORS Middleware
 
 

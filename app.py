@@ -3,9 +3,11 @@
 # python debugger by Microsoft
 # pylance by Microsoft
 # Jupyter (by Microsoft)
+# Code Runner (by Jun Han)
 # Black/Ruff/flake8 (for linting & formatting)
 # GitLens (for version control)
 # isort (Automatically sorts imports)
+# Material Icon Theme (by Philip Kief)
 
 
 # DATA TYPES
