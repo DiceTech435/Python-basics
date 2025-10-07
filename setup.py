@@ -9,4 +9,4 @@ setup(
 )
 
 # The install it Locally with:
-    # pip install -e .
+    # pip install -e .pip

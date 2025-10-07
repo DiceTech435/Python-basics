@@ -12,6 +12,7 @@ SELECT INTERPETER/ENVIRONMENT -- (Python 3.13/.venv/Miniconda)
     Select: .venv (C...\.venv) --- Recommended
 CHECK ENVIRONMENT
     where python
+    which python
         .venv --- pip/venv environment.
         miniconda3 --- Conda environment.
         Python313 --- global Python/default environment installed
