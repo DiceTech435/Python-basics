@@ -46,6 +46,7 @@ DEPLOY & SCALING
 
 LISTS OF PACKAGES
     API Layer -- djangorestframework
+    SMS -- twilio
     PostgreSQL -- psycopg2-binary
     PostgreSQL Adapter -- psycopg2-binary
     Database migrations -- (Built in django)

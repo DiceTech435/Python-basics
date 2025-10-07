@@ -1,5 +1,7 @@
 # EROR EXCEPTIONS
 # TYpes of errors
+    # ZeroDivisionError:
+    # ValueError:
 
 try:
     age= int(input("Age: "))

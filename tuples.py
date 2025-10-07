@@ -1,5 +1,5 @@
-# TOPOLS()-- Operate/same to lists, but inmutable, unchnageable, unmodifiable
-# Methods of Topols
+# TUPLE()-- Operate/same to lists, but inmutable, unchnageable, unmodifiable
+# Methods of Tuple
 # .count(self, x) --- 
 # .index(self, x, start, end)
 
