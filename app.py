@@ -10,12 +10,24 @@
 # Material Icon Theme (by Philip Kief)
 
 
-# DATA TYPES
-    # str "" \ -escape sequence--ignore any quote and treat as a normal string
+# DATA TYPES/VARIABLES
+    # str ""
+        # f str f"" -- adding variables
+        # r str r"" -- rescaping new line -- \ -escape sequence--ignore any quote and treat as a normal string
     # numbers
         # int -- 40, 3, 90
         # float -- 4.2, 49.1
     # bool
+
+# TYPE CASTING FUNCTIONS
+    # type() -- get the variable/data type
+    # str()
+    # int()
+        # birth_year = input('Birth year: ')
+        # age = 2019 - int(birth_year)
+        # print(age)
+    # float()
+    # bool()
 
 # BUILT-IN FUNCTIONS
     # # For tasks
@@ -23,17 +35,6 @@
         # input() #always otten as a string, hence convert to int or float
         # type()
         # max
-
-    # # For data type format
-        # str()
-        # int()
-            # birth_year = input('Birth year: ')
-            # age = 2019 - int(birth_year)
-            # print(age)
-        # float()
-        # bool()
-        # type()
-
 
     # For Files
         # open('shop.txt', 'w')
@@ -144,3 +145,6 @@ print(c)
 a = 240
 y = a >> 2
 print(y)
+
+age = f"{30} years old"
+print(age)
