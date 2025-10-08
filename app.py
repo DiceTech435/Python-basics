@@ -12,12 +12,15 @@
 
 # DATA TYPES/VARIABLES
     # str ""
-        # f str f"" -- adding variables
+        # format str f"" -- adding variables
         # r str r"" -- rescaping new line -- \ -escape sequence--ignore any quote and treat as a normal string
     # numbers
         # int -- 40, 3, 90
         # float -- 4.2, 49.1
     # bool
+
+
+# BUILT-IN FUNCTIONS
 
 # TYPE CASTING FUNCTIONS
     # type() -- get the variable/data type
@@ -29,29 +32,34 @@
     # float()
     # bool()
 
-# BUILT-IN FUNCTIONS
-    # # For tasks
-        # print()
-        # input() #always otten as a string, hence convert to int or float
-        # type()
-        # max
+# TASKS
+    # print()
+    # input() #always stored as a string, hence convert it to int or float
+    # type()
+    # max
 
-    # For Files
-        # open('shop.txt', 'w')
-        # .write("We are writing a file in python")
-        # .read()
-        # .close()
+# For Files
+    # open('shop.txt', 'w')
+    # .write("We are writing a file in python")
+    # .read()
+    # .close()
 
-    # # For string
-        # len() #gets the length of a string
-            # course = 'Python for Beginners'
-            # print(len(course))
+# For string
+    # len() #gets the length of a string
+        # course = 'Python for Beginners'
+        # print(len(course))
 
-    # # Maths/numbers
-        # round()
-        # abs()
-        # range(10)
-        # import math (math module)
+# # Maths/numbers
+    # round(x, 2)
+    # abs(-3)
+    # pow(3, 2)
+    # max(x, y, z)
+    # min(x, y, z)
+    # range(10)
+    # import math (math module)
+        # math.pi
+        # math.e
+        # math.sqrt
         # math.ceil(2.9)
         # math.floor(2.9)
 
@@ -124,6 +132,7 @@ print(course[0:3])
 # Escape sequence \ -ignore any quote and treat as a normal string
 # New line \n -- print("My name is\n Matthew")
 # Ignore New line r"" --- print(r"C:\Desktop\new")
+
 
 
 # # BITWISE
