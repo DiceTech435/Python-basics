@@ -42,7 +42,7 @@ else:
     print("please register")
 
 
-# TERNARY OPERATORS  
+# CONDITIONAL EXPRESSIONS/TERNARY OPERATORS  
 num = -5
 a = 6
 b= 7

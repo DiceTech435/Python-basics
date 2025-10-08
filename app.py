@@ -13,6 +13,8 @@
 # DATA TYPES/VARIABLES
     # str ""
         # format str f"" -- adding variables
+            #age = f"{30} years old"
+                    # print(age) 
         # r str r"" -- rescaping new line -- \ -escape sequence--ignore any quote and treat as a normal string
     # numbers
         # int -- 40, 3, 90
@@ -20,8 +22,7 @@
     # bool
 
 
-# BUILT-IN FUNCTIONS
-
+# FUNCTIONS
 # TYPE CASTING FUNCTIONS
     # type() -- get the variable/data type
     # str()
@@ -38,14 +39,8 @@
     # type()
     # max
 
-# For Files
-    # open('shop.txt', 'w')
-    # .write("We are writing a file in python")
-    # .read()
-    # .close()
-
 # For string
-    # len() #gets the length of a string
+    # len(username) #gets the length of a string
         # course = 'Python for Beginners'
         # print(len(course))
 
@@ -63,14 +58,26 @@
         # math.ceil(2.9)
         # math.floor(2.9)
 
+# For Files
+    # open('shop.txt', 'w')
+    # .write("We are writing a file in python")
+    # .read()
+    # .close()
 
 # METHODS
-    # For string
+    # For string -- help(str)
         # .upper()
         # .lower()
+        # .capitalize() -- first char 
         # .title()
-        # .find('p')
+        # .find('p') -- first occurence of a character
+        # .rfind('o') -- reverse/last occurence of a character
+        # .count('-')
         # .replace('Boy', 'Girl')
+    # Boolean String
+        # .isdigit() -- true/false if all contains digits
+        # .isalpha() -- true/false if all contains alphabets
+        # .endswith()
 
     # For Lists/Dictionaries/Topols
         # .items() -- only work for strings in dictionaries
@@ -114,11 +121,33 @@ course = '''
     The support team
 '''
 
-# CHAR INDEX []
+# STRING INDEXING / CHAR INDEX [start : end : step]
 course = 'Python for beginners'
+credit_number = "123-456-789-012-345"
 print(course[-2])
 print(course[0:3])
+print(credit_number[5:])
+print(credit_number[-1])
+print(credit_number[::2]) #count by 2
+print(credit_number[::-1]) #reverse a string
+last_digits = credit_number[-4:]
+print(f"XXXX-XXXX-XXXX-{last_digits}")
+# Note: 0 is default
 
+
+# FORMAT SPECIFIERS == {value:flags}
+# .(number)f round to a decimal point (fixed point)
+# :(number) allocate that many spaces
+# :03 allocate and zero pad that many spaces
+# :< left justify
+# :> right justify
+# :^ center align
+# :+ indicate positive value
+# := leftmost position
+# : insert a space before positive numbers
+# :, comma seperator
+    # price = 1200.34
+    # print(f"Price is ${price:+,.2f}")
 
 # OPERATORS
 # Arithmetic +, - *, /, //, %, ^, **,
@@ -129,6 +158,7 @@ print(course[0:3])
 # Identity is, is not
 # Assignment =, +=, -=, *=, /=
 # Comparison operators <, >, <=, >=, ==, ===, !=, !== (True/False)
+# Indexing operator [start : end : step]
 # Escape sequence \ -ignore any quote and treat as a normal string
 # New line \n -- print("My name is\n Matthew")
 # Ignore New line r"" --- print(r"C:\Desktop\new")
@@ -154,6 +184,3 @@ print(c)
 a = 240
 y = a >> 2
 print(y)
-
-age = f"{30} years old"
-print(age)
