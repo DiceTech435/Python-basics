@@ -2,6 +2,7 @@
 # TYpes of errors
     # ZeroDivisionError:
     # ValueError:
+    # IndexError
 
 try:
     age= int(input("Age: "))

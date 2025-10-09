@@ -43,6 +43,7 @@
     # len(username) #gets the length of a string
         # course = 'Python for Beginners'
         # print(len(course))
+    # reversed(range(1, 11))
 
 # # Maths/numbers
     # round(x, 2)
@@ -65,7 +66,7 @@
     # .close()
 
 # METHODS
-    # For string -- help(str)
+    # For string -- print(help(str))
         # .upper()
         # .lower()
         # .capitalize() -- first char 
@@ -79,7 +80,7 @@
         # .isalpha() -- true/false if all contains alphabets
         # .endswith()
 
-    # For Lists/Dictionaries/Topols
+    # For Lists/Dictionaries/Topols -- print(dir(iterable)), print(help(iterable))
         # .items() -- only work for strings in dictionaries
         # .count(self, x) --- 
         # .index(self, x, start, end)
@@ -91,8 +92,8 @@
     # is / ==
     # not
     # break -- stop executing
-    # pass -- pass this line, don't worry about it instead of showing error
     # continue
+    # pass -- pass this line, don't worry about it instead of showing error
     # import
     # from ... import ...
 

@@ -70,15 +70,14 @@
 # print("bye..")
 
 # 6th
-num = int(input("Enter a # between 1 - 10: "))
-while num < 1 or num > 10:
-    print(f"{num} is not")
-    num = int(input("Enter a # between 1 - 10: "))
-print(f"Your number is {num}")
+# num = int(input("Enter a # between 1 - 10: "))
+# while num < 1 or num > 10:
+#     print(f"{num} is not")
+#     num = int(input("Enter a # between 1 - 10: "))
+# print(f"Your number is {num}")
 
 
 # FOR LOOPS/foreach
-
 # 1st
 # for item in 'python':
 # for item in ["1, 2, 3, 4, 5"]:
@@ -98,6 +97,9 @@ print(f"Your number is {num}")
 
 
 # NESTED Loops
+# nested loop = A loop within another loop(outer, inner)
+                    # outer loop:
+                        # inner loop:
 
 # 1st
 # for x in range(4):
@@ -112,3 +114,14 @@ print(f"Your number is {num}")
 #     for count in range(x_count):
 #         output += 'a'
 #     print(output)
+
+# 3rd
+# rows = int(input("Enter the # of rows: "))
+# columns = int(input("Enter the # of columns: "))
+# symbols = input("Enter a symbol to use: ")
+
+# for x in range(rows):
+#     for y in range(columns):
+#         print(symbols, end="")
+#     print() #prints new line
+    

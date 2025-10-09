@@ -1,10 +1,3 @@
-# SETS -- same as lists but an item cannot appear twice
-# shop = {"Milk", "Garri", "Sugar", "Tea", "Cream", "Garri"}
-# if "Milk" in shop:
-#     print("Yes you have Milk in the shop")
-# else:
-#     print("You need milk")
-
 # DICTIONARIES{}/Json -- store informations that come as key-> value pair
 # None --- represents absence of a value
 # Methods

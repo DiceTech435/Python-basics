@@ -18,20 +18,12 @@
 #         print(maximum)
 
 # 3rd
-numbers = [3, 6, 2, 8, 4, 10]
-minimum = numbers[0]
-for number in numbers:
-    if number < minimum:
-        minimum = number
-        print(minimum)
-
-
-# 2-DIMENSIONAL LISTS
-# matrix = [
-#     [1, 2, 3],
-#     [4, 5, 6],
-#     [7, 8, 9]
-# ]
+# numbers = [3, 6, 2, 8, 4, 10]
+# minimum = numbers[0]
+# for number in numbers:
+#     if number < minimum:
+#         minimum = number
+#         print(minimum)
 
 
 # matrix[0] = [3, 90, 11]
@@ -40,22 +32,6 @@ for number in numbers:
 #     for item in row:
 #         print(item)
 
-
-# # LISTS' FUNCTIONS/METHODS
-numbers = [5, 2, 1, 5, 7, 4]
-# Numbers/String Methods
-    # .append() --adds to the last
-    # .insert(index, object)
-    # .remove(object)
-    # .clear() ---removes all in a list
-    # .pop() ---removes last item on the list
-    # .sort() -- sorts in ascending order
-    # .reverse() -- reverses in descending order
-    # .copy() -- just helps print the initial without redefining
-    # .choice()
-    # .count()
-    # .extend()
-    # .split()
 
 # # 1st
 # numbers.append(20)
@@ -79,7 +55,6 @@ numbers = [5, 2, 1, 5, 7, 4]
 # print(numbers.index(5)) 
 # print(50 in numbers) -- this doesnt return error
 # print(numbers.count(5))
-
 
 # EXAMPLES -- remove duplicated numbers
 # numbers = [2, 2, 4, 6, 3, 4, 6, 1]
