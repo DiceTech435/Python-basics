@@ -1,28 +1,41 @@
 # FUNCTIONS def -- reusable block of code
 # Paramters -- placeholders for recieving informations on a defined function
-# Arguments -- value supplied to a function
+# Arguments -- value supplied to a function. Must match with the set of parameters
+
+# TYPES OF FUNCTIONS
+# Positional Functions
 # Keyword argument -- positioning argument without minding order of parameter (must know the actual argument names)
-
-def greet_user(first_name, last_name, age):
-    print(f"Hi {first_name} {last_name}!")
-    # print("Welcome aboard")
-    print(f"I am {age} years old")
-    # Note: always give 3 line breaks after defining a function
+# Default Parameters
+# Unpacking
+# *args **kwargs
 
 
-print("Start")
-greet_user(last_name='Amevye', first_name='Matthew', age=30)
-# item_cost(total=50, shipping=5, discount=10)
-print("Finish")
-
-
-# RETURN -- only returns without showing, u can later decide to print it or not
+# RETURN -- only returns without showing, u can later decide to print it or not. This ends a function and send a result back to the caller.
 def square(number):
     # print(number * number) 
     # return None -- by default
     return (number * number) 
 print(square(3))
 
+def create_name(first, last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return first + " " + last
+print(create_name("Dice", "Matt"))
+
+
+
+# ======================> POSITIONAL ARGUMENTS <==============================
+def greet_user(first_name, last_name, age):
+    print(f"Hi {first_name} {last_name}!")
+    # print("Welcome aboard")
+    print(f"I am {age} years old")
+    # Note: always give 3 line breaks after defining a function
+
+print("Start")
+greet_user(last_name='Amevye', first_name='Matthew', age=30)
+# item_cost(total=50, shipping=5, discount=10)
+print("Finish")
 
 # CREATING REUSABLE FUNCTIONS
 # 1st
@@ -57,8 +70,11 @@ def find_min(numbers):
 # print("You are", age, "years old and you can date a ", round(limit), "years old girl or older")
 
 
-# 4th
-# Default values
+
+
+
+
+# ======================> KEYWORD PARAMETERS <==============================
 # def gender(sex = "Unknown"):
 #     if sex is "m":
 #         sex = "male"
@@ -71,7 +87,7 @@ def find_min(numbers):
 # gender()
 
 
-# 5th
+# 1st
 # Variable scope
 # a = 1234
 # def man():
@@ -85,15 +101,28 @@ def find_min(numbers):
 # boy()
 
 
-# 6th
-# Keyword arguments
+
+
+
+# ======================> DEFAULT ARGUMENTS <==============================
+# Defaukt value for certain parameters. Default is used when that argument is omitted. Makes your functions more flexible, reduces # of arguments
+
 # def sentence(name='Matthew', action='Plays', item='football'):
 #     print(name, action, item)
 
 # sentence("Dan", "dance", "baloron")
 # sentence(item='golf', action='plays', name='John')
 
-# 7th
+# 2nd
+def net_price(list_price, discount=0, tax=0.05):
+    return list_price * (1- discount) * (1 +  tax)
+
+print(net_price(500))
+print(net_price(500, 0.1, 0))
+
+
+# ======================> UNPACKING  <==============================
+# 1st
 # Flexible number of aruments/loops/lists
 # Note: you must loop here
 def add_numbers(*args):
@@ -105,8 +134,7 @@ def add_numbers(*args):
 add_numbers(4)
 add_numbers(4, 3, 3, 3)
 
-# 8th
-# Unpacking Arguments
+
 def health_cal(age, apple_rate, cig_rate):
     age = (100 - age) + (apple_rate * 3.5) - (cig_rate * 2)
     print(age)
