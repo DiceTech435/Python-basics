@@ -23,7 +23,7 @@ customer = {
 
 customer["name"] = "Matthew "
 print(customer["name"])
-print(customer.get("city"))
+print(customer.get("city")) #get the value of city
 print(customer.get("city", "Lafia")) #passing default
 customer.update({"age": 40})
 print(customer)
