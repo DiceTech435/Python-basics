@@ -1,25 +1,38 @@
-# DICTIONARIES{}/Json -- store informations that come as key-> value pair
+# DICTIONARIES{}/Json -- a collection of {key:value} pairs. ordered and changeable. No diplicates
 # None --- represents absence of a value
-# Methods
+
+# METHODS
+# print(dir(customer))
+# print(help(customer))
 # .get() -- gets key->value that does not exist and returns None(inseatd of error), or could assign default value instead
-# Note: .get() can be used instead of []
+    # Note: .get() can be used instead of []
+# .update({:})
+# .pop("age") -- remove the specified one
+# .popitem("age") -- remove the last inserted
+# .clear() -- clear the dictionary
+# .keys() -- returns all keys
+# .values() -- returns all values
+# .items() -- returns dictionary objects
 
 customer = {
     "name": " John Smith",
     "age": 30,
-    "is_verified": True
+    "is_verified": True,
+    "city": "Abuja"
 }
 
-# customer["name"] = "Matthew "
-# print(customer["name"])
-# print(customer.get("city"))
-# print(customer.get("city", "Lafia"))
+customer["name"] = "Matthew "
+print(customer["name"])
+print(customer.get("city"))
+print(customer.get("city", "Lafia")) #passing default
+customer.update({"age": 40})
+print(customer)
 
-# for k, v in customer.items():
-#     print(k + v)
+for key, values in customer.items():
+    print(f"{key}: {values}")
 
 
-# # 3rd
+# 3rd
 # phone = input("Phone: ")
 # digits_mapping = {
 #     "1": "One",
