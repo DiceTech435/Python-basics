@@ -6,13 +6,13 @@
 # print(help(customer))
 # .get() -- gets key->value that does not exist and returns None(inseatd of error), or could assign default value instead
     # Note: .get() can be used instead of []
+# .keys() -- returns all keys
+# .values() -- returns all values
+# .items() -- returns dictionary objects
 # .update({:})
 # .pop("age") -- remove the specified one
 # .popitem("age") -- remove the last inserted
 # .clear() -- clear the dictionary
-# .keys() -- returns all keys
-# .values() -- returns all values
-# .items() -- returns dictionary objects
 
 customer = {
     "name": " John Smith",

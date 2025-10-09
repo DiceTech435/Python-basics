@@ -3,6 +3,7 @@
     # ZeroDivisionError:
     # ValueError:
     # IndexError
+    # syntaxError
 
 try:
     age= int(input("Age: "))

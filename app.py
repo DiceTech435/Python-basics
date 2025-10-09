@@ -13,8 +13,7 @@
 # DATA TYPES/VARIABLES
     # str ""
         # format str f"" -- adding variables
-            #age = f"{30} years old"
-                    # print(age) 
+        #    f"{30} years old"
         # r str r"" -- rescaping new line -- \ -escape sequence--ignore any quote and treat as a normal string
     # numbers
         # int -- 40, 3, 90
@@ -23,21 +22,21 @@
 
 
 # FUNCTIONS
-# TYPE CASTING FUNCTIONS -- type() -- get the variable/data type
-    # str()
-    # int()
-        # birth_year = input('Birth year: ')
-        # age = 2019 - int(birth_year)
-        # print(age)
-    # float()
-    # bool()
-
-# TASKS
-    # print()
-    # input() #always stored as a string, hence convert it to int or float
-    # type()
+# TYPE CASTING FUNCTIONS
+    # print(type(name))-- get the variable/data type
     # help()
     # dir()
+        # str()
+        # int()
+            # birth_year = input('Birth year: ')
+            # age = 2019 - int(birth_year)
+            # print(age)
+        # float()
+        # bool()
+
+# TASKS
+    # print(end="", sep="-", \n)
+    # input() #always stored as a string, hence convert it to int or float
     # max
 
 # For string
@@ -53,7 +52,7 @@
     # max(x, y, z)
     # min(x, y, z)
     # range(10)
-    # import math (math module)
+import math 
         # math.pi
         # math.e
         # math.sqrt
@@ -87,16 +86,9 @@
         # .index(self, x, start, end)
 
 # BOOLEAN KEYWORDS
-    # in
-        # course = 'Python for Beginners'
-        # print('python' in course)
-    # is / ==
-    # not
     # break -- stop executing
-    # continue
-    # pass -- pass this line, don't worry about it instead of showing error
-    # import
-    # from ... import ...
+    # continue -- continue executing
+    # pass -- pass this line, don't worry about (showing) the error
 
 # CONCATENATION
     # name = input("What is your name? ")
@@ -165,6 +157,16 @@ print(f"XXXX-XXXX-XXXX-{last_digits}")
 # New line \n -- print("My name is\n Matthew")
 # Ignore New line r"" --- print(r"C:\Desktop\new")
 
+
+# MEMBERSHIP OPERATORS
+# Used to test whether a value or variable is found in a sequence (string, list, tuple, set or dictionary)
+    # in
+    # not in
+    # is / ==
+        # word = "APPLE"
+        # letter = input("Guess a letter in the secret word: ")
+        # if letter in word:
+        # if "@" in email and "." in email:
 
 
 # # BITWISE
