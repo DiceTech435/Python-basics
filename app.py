@@ -23,8 +23,7 @@
 
 
 # FUNCTIONS
-# TYPE CASTING FUNCTIONS
-    # type() -- get the variable/data type
+# TYPE CASTING FUNCTIONS -- type() -- get the variable/data type
     # str()
     # int()
         # birth_year = input('Birth year: ')
@@ -37,6 +36,8 @@
     # print()
     # input() #always stored as a string, hence convert it to int or float
     # type()
+    # help()
+    # dir()
     # max
 
 # For string
