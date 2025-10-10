@@ -33,6 +33,7 @@
             # print(age)
         # float()
         # bool()
+        # list()
 
 # TASKS
     # print(end="", sep="-", \n)
@@ -89,6 +90,8 @@ import math
     # break -- stop executing
     # continue -- continue executing
     # pass -- pass this line, don't worry about (showing) the error
+
+# VARIABLE SCOPE -- Scope resolution -- (LEGB)--Local->Enclosed->Global->Built-in
 
 # CONCATENATION
     # name = input("What is your name? ")

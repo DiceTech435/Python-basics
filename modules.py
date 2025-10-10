@@ -1,4 +1,8 @@
 # MODULES --files with python codes with diifferent sections
+# print(help("modules"))
+# print(help("math"))
+
+import math as m # alias
 import funcUtils
 from funcUtils import emoji_converter
 from funcUtils import square
