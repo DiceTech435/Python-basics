@@ -37,6 +37,7 @@ for fruit in fruits:
 
 
 # SETS -- same as lists but an item cannot appear twice
+# set = set()
 shop = {"Milk", "Garri", "Sugar", "Tea", "Cream", "Garri"}
 if "Milk" in shop:
     print("Yes you have Milk in the shop")
