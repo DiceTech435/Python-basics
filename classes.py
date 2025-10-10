@@ -1,4 +1,6 @@
-# CLASSES -- templates/blueprint for creating objects
+# OOP PYTHON
+
+# CLASSES -- templates/blueprint for creating objects, used to design the structure and layout of an object
     # using Pascal case in defining a class
     # Magic methods
     # Objects ---actual instanses based on the class created
